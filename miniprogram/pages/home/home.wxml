@@ -1,0 +1,13 @@
+<view class="face">
+	<text class="text">上传图片，会自动显示图片的主要特征标签</text>
+	<view class="images">
+		<image class="tcloud" src="{{imgUrl}}"></image>
+		<view class="labels">
+			<text class="label" wx:for="{{labels}}">{{item.name}}</text>
+		</view>
+	</view>
+	<view class="backgroud" ontap="upload">
+		<image class="uploadimg" src="../../images/upload.png"></image>
+		<text class="uploadtext">上传</text>
+	</view>
+</view>

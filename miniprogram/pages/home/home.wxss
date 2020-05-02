@@ -1,0 +1,70 @@
+.face {
+  width: 750rpx;
+  height: 1220rpx;
+  background: rgba(249, 249, 249, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  width: 532rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(170, 170, 170, 1);
+  line-height: 40rpx;
+  padding-top: 40rpx;
+}
+
+.tcloud {
+  width: 600rpx;
+  height: 600rpx;
+}
+
+.backgroud {
+  width: 750rpx;
+  height: 188rpx;
+  background: rgba(49, 114, 238, 1);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.uploadtext {
+  width: 84rpx;
+  height: 50rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 50rpx;
+  letter-spacing: 4rpx;
+}
+
+.uploadimg {
+  width: 54rpx;
+  height: 54rpx;
+  padding: 24rpx;
+}
+
+.label {
+  border: 2rpx solid rgba(151, 151, 151, 1);
+  font-size: 28rpx;
+}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  padding-top: 80rpx;
+}
+
+.labels{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
